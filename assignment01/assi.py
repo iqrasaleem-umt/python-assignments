@@ -123,8 +123,3 @@ print(f"Rounded to two decimal places: {rounded_to_two_decimal_places}")
 
 
 
-s = "the quick brown fox jumps over the lazy dog"
-index_of_fox = s.find("fox")
-count_of_the = s.count("the")
-print(f"Index of 'fox' is {index_of_fox}")
-print(f"'the' appears {count_of_the} times")
