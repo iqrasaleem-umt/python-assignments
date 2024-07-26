@@ -6,13 +6,13 @@
 # Drew is as old as Chen's age plus Anton's age.
 # Ethan is the same age as Chen.
 # Your code should store each person's age to a variable and print their names and ages at the end
+
+
 anton_age: str = "21"  
 beth_age: str = str(int(anton_age) + 6) 
 chen_age: str = str(int(beth_age) + 20)
 drew_age: str = str(int(chen_age) + int(anton_age)) 
 ethan_age: str = chen_age
-
-# Print the ages
 print(f"Anton is {anton_age} years old.")
 print(f"Beth is {beth_age} years old.")
 print(f"Chen is {chen_age} years old.")
@@ -21,6 +21,7 @@ print(f"Ethan is {ethan_age} years old.")
 
 # program2
 # Task: Given the variables name, age, and city, use f-strings to construct a sentence that describes a person using these variables
+
 
 person_name : str  = "Alice"
 person_age  : int  =  30
@@ -37,6 +38,7 @@ print(personinfo)
 # Convert to uppercase: change all characters in the string to uppercase.
 # Convert to lowercase: change all characters in the string to lowercase.
 
+
 sir_name : str = "sir zia"
 print(sir_name.title())
 print(sir_name.upper())
@@ -45,6 +47,7 @@ print(sir_name.lower())
 # program4
 # Task: Given the string s, use string methods to:
 # Replace "Python" with "Java": substitute "Python" with "Java".
+
 
 msg : str = "I love programming in Python"
 updatemsg : str  = msg.replace("Python", "Java")
@@ -55,6 +58,7 @@ print(updatemsg)
 # Split into a list: break the string into a list of substrings based on the delimiter ,.
 # Join with spaces: combine the list of substrings back into a single string, with each element separated by a space.
  
+
 fruits : str = "apple,banana,cherry,dates"
 split_list = fruits.split(',')
 print(split_list)
@@ -87,20 +91,18 @@ print(f"'the' appears {count_the} times")
 
 # Task: Given an integer num
 # Obtain the binary representation of num
+
+
 num : int = 45
 result : str = bin(num)
 print(result)
 
 
-
-
-
-
-
-
 # program9
 # ask: Given two integers base and exponent
 # Compute base raised to the power of exponent.
+
+
 number1 : int = 3
 number2 : int = 4
 print(number1**number2)
@@ -110,6 +112,7 @@ print(number1**number2)
 # Task: Given a floating-point number value
 # Round value to the nearest integer.
 # Round value to two decimal places.
+
 
 value : float = 12.34567
 rounded_to_integer : int = round(value)
